@@ -40,7 +40,7 @@ ul, ol {
 /* Remove underline padrão de links */
 a {
   color: inherit;
-  text-decoration: inherit;
+  text-decoration: none;
 }
 
 /* Remove estilos padrão de botões */
