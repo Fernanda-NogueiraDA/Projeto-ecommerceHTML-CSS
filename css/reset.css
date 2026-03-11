@@ -17,8 +17,6 @@ html {
 body {
   /* Altura mínima de 100vh para preencher a viewport */
   min-height: 100vh;
-  /* Define as propriedades de fonte como herança */
-  font-family: system-ui, -apple-system, sans-serif;
   /* Melhora a renderização de fontes */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
