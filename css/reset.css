@@ -1,0 +1,108 @@
+/* Reset CSS - Baseado nas práticas modernas de CSS Reset */
+
+/* Remove margens e paddings padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Define a altura mínima como 100% da viewport */
+  height: 100%;
+  /* Rolagem suave */
+  scroll-behavior: smooth;
+}
+
+body {
+  /* Altura mínima de 100vh para preencher a viewport */
+  min-height: 100vh;
+  /* Define as propriedades de fonte como herança */
+  font-family: system-ui, -apple-system, sans-serif;
+  /* Melhora a renderização de fontes */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Line height adequado */
+  line-height: 1.5;
+  /* Evita problemas com overflow */
+  overflow-x: hidden;
+}
+
+/* Remove estilos padrão de títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Remove estilos padrão de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove underline padrão de links */
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* Remove estilos padrão de botões */
+button {
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+/* Remove estilos padrão de inputs */
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Melhora a renderização de imagens, vídeos e iframes */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove estilos padrão de tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove estilos padrão de citações */
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* Melhora a acessibilidade de formulários */
+input:focus, button:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+/* Remove estilos padrão de linha horizontal */
+hr {
+  border: none;
+  height: 1px;
+  background-color: currentColor;
+}
+
+/* Remove estilos padrão de fieldset */
+fieldset {
+  border: none;
+}
+
+/* Remove estilos padrão de legenda */
+legend {
+  padding: 0;
+}
