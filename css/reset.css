@@ -39,7 +39,6 @@ ul, ol {
 
 /* Remove underline padrão de links */
 a {
-  color: inherit;
   text-decoration: none;
 }
 
