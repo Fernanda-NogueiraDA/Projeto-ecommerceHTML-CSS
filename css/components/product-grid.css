@@ -76,3 +76,29 @@
     display: flex;
     gap: 10px;
 }
+
+@media(max-width: 768px){
+  .grid-section{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+        "destaque destaque"
+        "tenis-branco tenis-branco"
+        "modeL tenis-colorido"
+        "modeL tenis-cinza"
+        "tenis-roxo tenis-roxo";
+        max-width: 100%;
+        gap: 0.625rem;
+    }
+
+    .destaque{
+        min-height: 500px;
+    }
+    .modeL{
+        min-height: 370px;
+    }
+    .tenis-branco, .tenis-roxo{
+        min-height: 190px;
+    }
+
+  }
